@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Online Wallet</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <section class = "container-fluid bg">
+		<section class="reg-container">
+			<section class="row justify-content-center">
+				<form class="form-group">
+					<h4 class="text-center">Create Account</h4>
+					<class class="row">
+						<div class="col-md-6">
+							<input type="text" class="form-control" id="InputFirstName" placeholder="Enter First Name">
+						</div>
+						<div class="col-md-6">
+							<input type="text" class="form-control" id="InputLastName"placeholder="Enter Last Name">
+						</div>
+						<div class="col-md-6">
+							<input type="email" class="form-control" id="InputEmail"placeholder="Enter Email Address">
+						</div>
+						<div class="col-md-6">
+							<input type="tel" class="form-control" id="InputMobileNo." placeholder="Enter Mobile #">
+						</div>
+						<div class="col-md-6">
+							<label class="text-muted">Date of Birth:</label>
+                    		<input type = "date" name="bdate" id="InputBdate" required/>
+						</div>	
+						<div class="col-md-6">
+							<input type="password" class="form-control" id ="InputPassword"placeholder="Enter Password">
+						</div>
+						<div class="col-md-6">
+							<input type="password" class="form-control" placeholder="Confirm Password">
+						</div>
+						<div class="col-md-6">
+							<select id="Account-Type" class="form-control">
+							<option value=""disabled selected>Select Account Type</option>
+							<option value="savings">Savings Account</option>
+							<option value="current">Current Account</option>
+							<option value="recurring">Recurring Deposit</option>
+							<option value="fixed">Fixed Deposit</option>
+							</select>
+						</div>
+					</class>
+						<div>
+							<input type="checkbox" class="form-check-input" id="exampleCheck1">
+							<p>I accept the <a href="#" style="color:dodgerblue">Terms of Use</a>&amp;<a href="#" style="color:dodgerblue">Privacy Policy</a></p>
+						</div>
+						<div class="col-md-12">
+							<a href="index.html" class="btn btn-primary btn-lg active btn-block" role="button" aria-pressed="true">Submit</a>	
+						</div>
+					</div>
+				</form>
+			</section>
+		</section>		
+    </section>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
+
+		<a href="#"><i class="fas fa-home"></i><span>Home</span></a>
+		<a href="#"><i class="fas fa-file-invoice-dollar"></i><span>Add Amount</span></a>
+		<a href="#"><i class="fas fa-briefcase"></i><span>Show Accounts</span></a>
+		<a href="#"><i class="fas fa-exchange-alt"></i><span>Transfer Money</span></a>
+		<a href="#"><i class="fas fa-folder-plus"></i><span>Create Account</span></a>

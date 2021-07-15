@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Online Wallet</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <section class = "container-fluid bg">
+        <section class="row justify-content-center">
+            <section class="col-12 col-sm-6 col-md-3">
+                <form class= "form-container">
+                    <div class="form-group">
+                        <label for="exampleInputEmail">Email Address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail" 
+                        aria-describedby="emailHelp" placeholder="Enter email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="examplePassword1">Password</label>
+                        <input type="password" class="form-control" id="examplePassword1" 
+                        aria-describedby="emailHelp" placeholder="Password" required>
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                    </div>
+                    <a href="Dashboard.html" class="btn btn-primary btn-lg active btn-block" role="button" aria-pressed="true">Login</a>
+                    <a href="Signup.html" class="btn btn-primary btn-lg active btn-block" role="button" aria-pressed="true">Register</a>
+                    <div class="container">
+                        <a href="#" data-toggle="modal" data-target="#forgetPassModal">Forgot Password?</a>
+                    </div>
+                </form>
+            </section>
+        </section>
+    </section>  
+  <!-- Modal -->
+  <div class="modal fade" id="forgetPassModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Forgot Password</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label for="examplePassword1">New Password:</label>
+                    <input type="password" class="form-control" id ="InputPassword"
+                    placeholder="Enter Password">
+                    <label for="examplePassword1">Re-enter Password:</label>
+                    <input type="password" class="form-control" id ="InputPassword"
+                    placeholder="Confirm Password">
+                </div>
+                <button type="submit" class="btn btn-primary btn-lg active btn-block">Submit</button>
+            </div>
+        </div>
+     
+      </div>
+    </div>
+  </div>
+
+    <footer>
+        &copy;All Rights Reserved
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
